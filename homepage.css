@@ -1,0 +1,241 @@
+/* Base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #2c3e50;
+  }
+  a {
+    text-decoration: none;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    background: #2c3e50;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-area {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  .company-name {
+    color: #fff;
+    font-size: 20px;
+  }
+  .nav a {
+    margin: 0 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Hero */
+  .hero {
+    position: relative;
+    height: 400px;
+  }
+  .hero-bg {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  .hero-text h2 {
+    font-size: 36px;
+  }
+  .subtext {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .hero-buttons .btn {
+    margin: 0 10px;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+  }
+  .btn.red { background: #e74c3c; color: white; }
+  .btn.light { background: white; color: #2c3e50; }
+  .btn.blue { background: #3498db; color: white; }
+  .btn.green { background: #2ecc71; color: white; }
+  .btn.small {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin-top: 10px;
+  }
+  
+  /* About */
+  .about {
+    padding: 40px 20px;
+    background: #ecf0f1;
+    text-align: center;
+  }
+  
+  /* Services */
+  .services {
+    padding: 40px 20px;
+  }
+  .service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .service-card {
+    width: 220px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+  }
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .icon.blue { color: #3498db; }
+  .icon.green { color: #2ecc71; }
+  .icon.red { color: #e74c3c; }
+  
+  /* CTA */
+  .cta {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+  }
+/* Page Title */
+.page-title {
+  text-align: center;
+  margin: 30px 0 10px;
+}
+.page-title h2 {
+  font-size: 32px;
+  color: #2c3e50;
+}
+.title-line {
+  width: 100px;
+  height: 4px;
+  background: #3498db;
+  margin: 10px auto;
+  border: none;
+}
+
+/* Contact Section */
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  background: #fff;
+  gap: 30px;
+}
+.contact-info, .contact-form {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+.contact-info h3, .contact-form h3 {
+  text-align: center;
+  color: #2c3e50;
+}
+.info-block {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.icon-circle {
+  background: #3498db;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.icon {
+  color: white;
+  font-size: 18px;
+}
+
+/* Contact Form */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input,
+.contact-form textarea {
+  background: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.contact-form button {
+  background: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background: #2980b9;
+}
+
+/* Map Section */
+.map-placeholder {
+  background: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* Active Nav Item */
+.nav .active {
+  text-decoration: underline;
+}
+  
