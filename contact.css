@@ -96,4 +96,13 @@
   .nav .active {
     text-decoration: underline;
   }
+ .logo-area {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
   
